@@ -1,0 +1,41 @@
+[gd_scene load_steps=5 format=3 uid="uid://c41pynisb00p1"]
+
+[ext_resource type="Texture2D" uid="uid://b38pl6nosybuo" path="res://assets/maps/archery/paris 3.jpg" id="1_nykkc"]
+[ext_resource type="Texture2D" uid="uid://cexycsickob" path="res://assets/maps/archery/wood_6.png" id="2_0ngc8"]
+[ext_resource type="Texture2D" uid="uid://df087pbhb0xaf" path="res://assets/maps/archery/archery target.png" id="2_oo8fe"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_flsgt"]
+radius = 215.745
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_left = 186.0
+offset_top = 4.0
+offset_right = 1337.0
+offset_bottom = 650.0
+texture = ExtResource("1_nykkc")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(781, 597)
+rotation = 6.28319
+scale = Vector2(3.093, 4.346)
+skew = -0.155334
+texture = ExtResource("2_0ngc8")
+
+[node name="Sprite2D3" type="Sprite2D" parent="."]
+position = Vector2(997, 576)
+rotation = -3.831
+scale = Vector2(3.103, 4.36)
+texture = ExtResource("2_0ngc8")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(899.5, 343.5)
+scale = Vector2(0.443, 0.443)
+texture = ExtResource("2_oo8fe")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(901, 346)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+shape = SubResource("CircleShape2D_flsgt")

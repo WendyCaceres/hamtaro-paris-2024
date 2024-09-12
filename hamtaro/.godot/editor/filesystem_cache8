@@ -1,5 +1,16 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1726083808
-icon.svg::CompressedTexture2D::2672870447250814954::1726083665::1726083671::1::::<><>::
-::res://assets/::1726083937
-Game Boy Advance - Hamtaro Ham-Ham Games - Hamtaro.png::CompressedTexture2D::5825020763860249360::1726083937::1726083938::1::::<><>::
+::res://::1726099458
+icon.svg::CompressedTexture2D::2672870447250814954::1726099098::1726099121::1::::<><>::
+::res://assets/::1726099428
+Game Boy Advance - Hamtaro Ham-Ham Games - Hamtaro.png::CompressedTexture2D::5825020763860249360::1726099098::1726099121::1::::<><>::
+::res://assets/maps/::1726099458
+::res://assets/maps/archery/::1726100434
+archery target.png::CompressedTexture2D::7563877309002659545::1726099464::1726099464::1::::<><>::
+paris 3.jpg::CompressedTexture2D::4420764819033838234::1726099453::1726099458::1::::<><>::
+wood_6.png::CompressedTexture2D::4413961217629269::1726100111::1726100111::1::::<><>::
+wood_6_2.png::CompressedTexture2D::2021143697078617690::1726100434::1726100434::1::::<><>::
+::res://scene/::1726099743
+character_body_2d.tscn::PackedScene::7506787458239827836::1726099743::0::1::::<><>::
+::res://scene/maps/::1726099487
+::res://scene/maps/archery/::1726099744
+archery_map.tscn::PackedScene::6862945964422083092::1726099744::0::1::::<><>::uid://b38pl6nosybuo::::res://assets/maps/archery/paris 3.jpg<>uid://df087pbhb0xaf::::res://assets/maps/archery/archery target.png
