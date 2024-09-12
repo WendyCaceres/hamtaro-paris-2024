@@ -9,9 +9,9 @@ func _physics_process(delta):
 	if dir:
 		# Cambiar la animación según la dirección en la que se mueve el personaje
 		if dir.x > 0:
-			$jugador.play("costado_derecho")
-		elif dir.x < 0:
 			$jugador.play("costado_izquierdo")
+		elif dir.x < 0:
+			$jugador.play("costado_derecho")
 		elif dir.y > 0:
 			$jugador.play("frente")
 		elif dir.y < 0:
