@@ -1,4 +1,4 @@
-[gd_scene load_steps=20 format=3 uid="uid://bka4axeafcw7g"]
+[gd_scene load_steps=20 format=3 uid="uid://vs6f47t1yrj4"]
 
 [ext_resource type="Script" path="res://scene/jugador.gd" id="1_tsgnj"]
 [ext_resource type="Texture2D" uid="uid://dddcou60ncdcs" path="res://assets/cosder.1.png" id="2_najbq"]
@@ -105,6 +105,8 @@ script = ExtResource("1_tsgnj")
 position = Vector2(243, -168)
 sprite_frames = SubResource("SpriteFrames_8phex")
 animation = &"frente"
+frame = 2
+frame_progress = 0.379799
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(236, -140)

@@ -1,5 +1,5 @@
-res://script/jugador.gd
-res://script/jugador.tscn
-res://scene/jugador.tscn
-res://scene/jugador.gd
+res://scene/character_body_2d.tscn
+res://scene/maps/archery/archery_map.tscn
 res://scene/tess/jugador.tscn
+res://scene/jugador.gd
+res://scene/jugador.tscn
