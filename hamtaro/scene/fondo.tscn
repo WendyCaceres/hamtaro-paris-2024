@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bv3qi3h4ce1cs"]
+
+[ext_resource type="Texture2D" uid="uid://wx5m5d8ncy2y" path="res://assets/fondo.jpg" id="1_p74e8"]
+[ext_resource type="PackedScene" uid="uid://bka4axeafcw7g" path="res://scene/jugador.tscn" id="1_uxx70"]
+
+[node name="fondo" type="TextureRect"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_p74e8")
+
+[node name="jugador" parent="." instance=ExtResource("1_uxx70")]

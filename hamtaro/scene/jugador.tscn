@@ -95,17 +95,18 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wcjff"]
-size = Vector2(30, 10)
+size = Vector2(30, 68)
 
 [node name="jugador" type="CharacterBody2D"]
 position = Vector2(411, 226)
 script = ExtResource("1_tsgnj")
 
 [node name="jugador" type="AnimatedSprite2D" parent="."]
-position = Vector2(243, -168)
+position = Vector2(261.75, -150.25)
+scale = Vector2(1.70755, 1.69608)
 sprite_frames = SubResource("SpriteFrames_8phex")
 animation = &"frente"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(236, -140)
+position = Vector2(260, -151)
 shape = SubResource("RectangleShape2D_wcjff")
