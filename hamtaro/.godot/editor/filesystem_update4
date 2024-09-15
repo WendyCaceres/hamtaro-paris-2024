@@ -1,2 +1,8 @@
+res://scene/maps/archery/street.tscn
 res://scene/character_body_2d.tscn
 res://scene/maps/archery/archery_map.tscn
+res://scene/arrow.tscn
+res://scripts/archery/keep_arrow_position.gd
+res://scripts/archery/pointer.gd
+res://scripts/archery/arrow_moving.gd
+res://scripts/archery/archery_score.gd

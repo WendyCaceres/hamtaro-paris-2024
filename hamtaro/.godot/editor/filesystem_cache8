@@ -1,16 +1,29 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1726099458
+::res://::1726440606
 icon.svg::CompressedTexture2D::2672870447250814954::1726099098::1726099121::1::::<><>::
-::res://assets/::1726099428
-Game Boy Advance - Hamtaro Ham-Ham Games - Hamtaro.png::CompressedTexture2D::5825020763860249360::1726099098::1726099121::1::::<><>::
-::res://assets/maps/::1726099458
-::res://assets/maps/archery/::1726100434
-archery target.png::CompressedTexture2D::7563877309002659545::1726099464::1726099464::1::::<><>::
-paris 3.jpg::CompressedTexture2D::4420764819033838234::1726099453::1726099458::1::::<><>::
-wood_6.png::CompressedTexture2D::4413961217629269::1726100111::1726100111::1::::<><>::
-wood_6_2.png::CompressedTexture2D::2021143697078617690::1726100434::1726100434::1::::<><>::
-::res://scene/::1726099743
-character_body_2d.tscn::PackedScene::7506787458239827836::1726099743::0::1::::<><>::
-::res://scene/maps/::1726099487
-::res://scene/maps/archery/::1726099744
-archery_map.tscn::PackedScene::6862945964422083092::1726099744::0::1::::<><>::uid://b38pl6nosybuo::::res://assets/maps/archery/paris 3.jpg<>uid://df087pbhb0xaf::::res://assets/maps/archery/archery target.png
+::res://assets/::1726443270
+Game Boy Advance - Hamtaro Ham-Ham Games - Hamtaro.png::CompressedTexture2D::5825020763860249360::1726140022::1726140040::1::::<><>::
+::res://assets/fonts/::1726443277
+Kenney Blocks.ttf::FontFile::2495799631001010621::1726443277::1726443277::1::::<><>::
+::res://assets/maps/::1726140022
+::res://assets/maps/archery/::1726424407
+archery target.png::CompressedTexture2D::7563877309002659545::1726140022::1726140040::1::::<><>::
+Arrow 2-Photoroom.png::CompressedTexture2D::7350043657108859278::1726225891::1726225922::1::::<><>::
+camera_arrow.png::CompressedTexture2D::8298672325720395456::1726424407::1726424407::1::::<><>::
+paris 3.jpg::CompressedTexture2D::4420764819033838234::1726140022::1726140040::1::::<><>::
+paris_street.png::CompressedTexture2D::5344195497412307512::1726417492::1726417497::1::::<><>::
+pointer.png::CompressedTexture2D::7195986686874858003::1726226276::1726226294::1::::<><>::
+wood_6.png::CompressedTexture2D::4413961217629269::1726140022::1726140040::1::::<><>::
+wood_6_2.png::CompressedTexture2D::2021143697078617690::1726140022::1726140040::1::::<><>::
+::res://scene/::1726443145
+arrow.tscn::PackedScene::9202454116277524869::1726443145::0::1::::<><>::uid://dcyoe63cjk7sk::::res://assets/maps/archery/Arrow 2-Photoroom.png
+character_body_2d.tscn::PackedScene::7506787458239827836::1726443145::0::1::::<><>::
+::res://scene/maps/::1726140022
+::res://scene/maps/archery/::1726443145
+archery_map.tscn::PackedScene::6862945964422083092::1726443145::0::1::::<><>::res://scripts/archery/archery_score.gd<>uid://b38pl6nosybuo::::res://assets/maps/archery/paris 3.jpg<>uid://cexycsickob::::res://assets/maps/archery/wood_6.png<>uid://df087pbhb0xaf::::res://assets/maps/archery/archery target.png<>res://scripts/archery/pointer.gd<>uid://dar1345jd17dn::::res://assets/maps/archery/pointer.png
+street.tscn::PackedScene::5085676207301078537::1726443145::0::1::::<><>::uid://cie1ebu78o8bs::::res://assets/maps/archery/paris_street.png<>res://scripts/archery/arrow_moving.gd<>uid://dqh66knj61pgy::::res://assets/maps/archery/camera_arrow.png
+::res://scripts/::1726440237
+::res://scripts/archery/::1726443140
+archery_score.gd::GDScript::-1::1726442457::0::1::::<>Node2D<>::
+arrow_moving.gd::GDScript::-1::1726440972::0::1::::<>Sprite2D<>::
+pointer.gd::GDScript::-1::1726443140::0::1::::<>Marker2D<>::
