@@ -1,3 +1,12 @@
 res://scene/jugador.tscn
 res://scene/tess/jugador.tscn
 res://scene/fondo.tscn
+res://scene/back.tscn
+res://scene/jugador.gd
+res://script/transicion.gd
+res://scene/transicion.tscn
+res://script/transicion.tscn
+res://script/entrada.gd
+res://script/Transicion.gd
+res://script/TransicionS.gd
+res://script/jugador.gd
