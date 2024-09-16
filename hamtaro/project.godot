@@ -9,6 +9,7 @@
 config_version=5
 
 [application]
+
 config/name="hamtaro"
 run/main_scene="res://scene/main/fondo.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")

@@ -1,34 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-res://scene/jugador.tscn
-res://scene/tess/jugador.tscn
-res://scene/fondo.tscn
-res://scene/back.tscn
-res://scene/jugador.gd
-res://script/transicion.gd
-res://scene/transicion.tscn
-res://script/transicion.tscn
-res://script/entrada.gd
-res://script/Transicion.gd
-res://script/TransicionS.gd
-res://script/jugador.gd
-=======
-res://scene/maps/archery/street.tscn
-res://scene/character_body_2d.tscn
-=======
->>>>>>> union
-res://scene/maps/archery/archery_map.tscn
-res://scene/maps/archery/score_board.tscn
-<<<<<<< HEAD
-res://scene/maps/archery/character_body_2d.tscn
-res://scene/maps/archery/arrow.tscn
-res://scripts/archery/score_board.gd
-res://scene/maps/archery/archery_ham.tscn
-res://scripts/archery/archery_ham.gd
->>>>>>> archery_map
-=======
-res://scene/fondo.tscn
-res://scripts/entrada.gd
 res://scene/main/fondo.tscn
+res://scene/maps/archery/archery_map.tscn
 res://scripts/archery/pointer.gd
->>>>>>> union
