@@ -17,7 +17,7 @@ config/icon="res://scene/icon.svg"
 
 [autoload]
 
-TransicionRuta="*res://script/transicion.gd"
+TransicionRuta="*res://scripts/transicion.gd"
 
 [input]
 

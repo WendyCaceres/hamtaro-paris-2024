@@ -1,6 +1,6 @@
 [gd_scene load_steps=20 format=3 uid="uid://bka4axeafcw7g"]
 
-[ext_resource type="Script" path="res://script/jugador.gd" id="1_3umv3"]
+[ext_resource type="Script" path="res://scripts/jugador.gd" id="1_s5my3"]
 [ext_resource type="Texture2D" uid="uid://dddcou60ncdcs" path="res://assets/Personaje/cosder.1.png" id="2_najbq"]
 [ext_resource type="Texture2D" uid="uid://cam3u6ayyr3tr" path="res://assets/Personaje/cosder.2.png" id="3_kykua"]
 [ext_resource type="Texture2D" uid="uid://c300sclmhhk4c" path="res://assets/Personaje/cosder.3.png" id="4_33o38"]
@@ -99,7 +99,7 @@ size = Vector2(30, 6)
 
 [node name="jugador" type="CharacterBody2D"]
 position = Vector2(411, 226)
-script = ExtResource("1_3umv3")
+script = ExtResource("1_s5my3")
 
 [node name="jugador" type="AnimatedSprite2D" parent="." groups=["jugador"]]
 position = Vector2(239.75, -172.75)

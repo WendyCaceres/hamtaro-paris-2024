@@ -6,13 +6,15 @@ signal transicion_completa
 
 @export var transicion_time: float = 1.0
 
-@onready var color_react: ColorRect = $ColorRect  # Ajusta la ruta según la estructura de tu escena
+# Ajusta la ruta según la estructura de tu escena
+@onready var color_react: ColorRect = $ColorRect
 
 var siguiente_scene_path: String
 var is_transicion: bool = false
 var jugador_spam_posicion: Vector2 = Vector2(0, 0)
 
 func _ready() -> void:
+	print("Nodos hijos del CanvasLayer: ", get_children())
 	print("Transicion singleton cargado")
 	if color_react:
 		print("ColorRect encontrado en la escena")

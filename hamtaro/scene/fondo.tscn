@@ -1,4 +1,4 @@
-[gd_scene load_steps=28 format=4 uid="uid://0tf7wd2honkr"]
+[gd_scene load_steps=29 format=4 uid="uid://0tf7wd2honkr"]
 
 [ext_resource type="Texture2D" uid="uid://dviai5g1qltw2" path="res://assets/Fondo/Hills.png" id="1_oq8mt"]
 [ext_resource type="PackedScene" uid="uid://bka4axeafcw7g" path="res://scene/jugador.tscn" id="1_uxx70"]
@@ -10,7 +10,8 @@
 [ext_resource type="Texture2D" uid="uid://hy0o0kgsrold" path="res://assets/Fondo/Buildings.png" id="7_40jrj"]
 [ext_resource type="Texture2D" uid="uid://c6r4dtawv5263" path="res://assets/Fondo/Tilled_Dirt.png" id="8_xuf43"]
 [ext_resource type="Texture2D" uid="uid://c8y4rausugmj1" path="res://assets/Fondo/Tileset_Road.png" id="9_g3eah"]
-[ext_resource type="Script" path="res://script/entrada.gd" id="11_up0fl"]
+[ext_resource type="Script" path="res://scripts/jugador.gd" id="11_vspe5"]
+[ext_resource type="Script" path="res://scripts/entrada.gd" id="12_cn8i1"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bqinc"]
 texture = ExtResource("1_oq8mt")
@@ -821,9 +822,10 @@ layer_2/z_index = 8
 
 [node name="jugador" parent="TileMapLayer" instance=ExtResource("1_uxx70")]
 position = Vector2(731, 205)
+script = ExtResource("11_vspe5")
 
 [node name="Area2D" type="Area2D" parent="."]
-script = ExtResource("11_up0fl")
+script = ExtResource("12_cn8i1")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
 position = Vector2(79.6719, 41.7746)

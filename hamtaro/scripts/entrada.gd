@@ -11,6 +11,6 @@ func _on_body_entered(body: Node2D) -> void:
 		print("El cuerpo es un jugador")
 		transicion.jugador_spam_posicion = Vector2(0, 0)  # Ajusta la posición si es necesario
 		print("Cambiando escena a: res://scene/transicion.tscn")
-		transicion.change_scene("res://scene/icon.svg")
+		get_tree().change_scene_to_file("res://scene/transicion.tscn")
 	else:
 		print("El cuerpo no es un jugador")

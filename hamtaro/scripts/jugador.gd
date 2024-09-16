@@ -8,7 +8,7 @@ func _ready() -> void:
 
 func _physics_process(delta):
 	# Obtener la dirección del input del jugador
-	var dir: Vector2 = Input.get_vector("izquierda", "derecha", "arriba", "abajo")
+	var dir: Vector2 = Input.get_vector( "derecha","izquierda", "arriba", "abajo")
 	
 	if dir:
 		# Cambiar la animación según la dirección en la que se mueve el personaje
