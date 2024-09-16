@@ -1,10 +1,19 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 res://script
+=======
+res://scene/main
+<<<<<<< HEAD
+>>>>>>> union
 =======
 res://scripts/archery
 res://assets/maps/archery
 res://scene/maps/archery
-res://scripts
 >>>>>>> archery_map
+res://scripts
+<<<<<<< HEAD
+>>>>>>> archery_map
+=======
+>>>>>>> union
 res://scene
 res://scene/tess

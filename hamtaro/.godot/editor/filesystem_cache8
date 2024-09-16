@@ -1,5 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
 <<<<<<< HEAD
+<<<<<<< HEAD
 ::res://::1726444336
 ::res://assets/::1726363504
 ::res://assets/Fondo/::1726436780
@@ -74,3 +75,74 @@ arrow_moving.gd::GDScript::-1::1726440972::0::1::::<>Sprite2D<>::
 pointer.gd::GDScript::-1::1726446619::0::1::::<>Marker2D<>::
 score_board.gd::GDScript::-1::1726446421::0::1::::<>ColorRect<>::
 >>>>>>> archery_map
+=======
+::res://::1726459882
+::res://assets/::1726458532
+::res://assets/Fondo/::1726459555
+Basic_Grass_Biom_things.png::CompressedTexture2D::6373315035427612906::1726458532::1726459555::1::::<><>::
+Buildings.png::CompressedTexture2D::542411226326640537::1726458532::1726459555::1::::<><>::
+Hills.png::CompressedTexture2D::8649758662034188907::1726458532::1726459555::1::::<><>::
+Props.png::CompressedTexture2D::2538771407658527108::1726458532::1726459555::1::::<><>::
+Sign_1.png::CompressedTexture2D::7878491821478660623::1726458532::1726459555::1::::<><>::
+Sign_2.png::CompressedTexture2D::8685976208319403071::1726458532::1726459555::1::::<><>::
+Tileset_Road.png::CompressedTexture2D::7140409456566218796::1726458532::1726459555::1::::<><>::
+Tilled_Dirt.png::CompressedTexture2D::6985557091128670886::1726458532::1726459555::1::::<><>::
+Water.png::CompressedTexture2D::8652373413942268286::1726458532::1726459555::1::::<><>::
+Wood_Bridge.png::CompressedTexture2D::4483998437398427571::1726458532::1726459555::1::::<><>::
+::res://assets/fonts/::1726459555
+Kenney Blocks.ttf::FontFile::2495799631001010621::1726458068::1726459555::1::::<><>::
+::res://assets/maps/::1726458068
+::res://assets/maps/archery/::1726459555
+archery target.png::CompressedTexture2D::7563877309002659545::1726458068::1726459555::1::::<><>::
+archery_ham.png::CompressedTexture2D::5838500272930944306::1726458068::1726459555::1::::<><>::
+Arrow 2-Photoroom.png::CompressedTexture2D::7350043657108859278::1726458068::1726459555::1::::<><>::
+camera_arrow.png::CompressedTexture2D::8298672325720395456::1726458068::1726459555::1::::<><>::
+paris 3.jpg::CompressedTexture2D::4420764819033838234::1726458068::1726459555::1::::<><>::
+paris_street.png::CompressedTexture2D::5344195497412307512::1726458068::1726459555::1::::<><>::
+pointer.png::CompressedTexture2D::7195986686874858003::1726458068::1726459555::1::::<><>::
+wood_6.png::CompressedTexture2D::4413961217629269::1726458068::1726459555::1::::<><>::
+wood_6_2.png::CompressedTexture2D::2021143697078617690::1726458068::1726459555::1::::<><>::
+::res://assets/Personaje/::1726459555
+cosder.1.png::CompressedTexture2D::7376169249865061026::1726458532::1726459555::1::::<><>::
+cosder.2.png::CompressedTexture2D::4799351321457556239::1726458532::1726459555::1::::<><>::
+cosder.3.png::CompressedTexture2D::6791288624806468972::1726458532::1726459555::1::::<><>::
+cosder.4.png::CompressedTexture2D::7276449821110562231::1726458532::1726459555::1::::<><>::
+cosiz.1.png::CompressedTexture2D::8754534599730898635::1726458532::1726459555::1::::<><>::
+cosiz.2.png::CompressedTexture2D::7230176961818749556::1726458532::1726459555::1::::<><>::
+cosiz.3.png::CompressedTexture2D::3482031251340406725::1726458532::1726459555::1::::<><>::
+cosiz.4.png::CompressedTexture2D::549893743511063499::1726458532::1726459555::1::::<><>::
+es.1.png::CompressedTexture2D::6662164944045274188::1726458532::1726459555::1::::<><>::
+es.2.png::CompressedTexture2D::4383913141054778875::1726458532::1726459555::1::::<><>::
+es.3.png::CompressedTexture2D::7668837887359708932::1726458532::1726459555::1::::<><>::
+es.4.png::CompressedTexture2D::3853819794211226320::1726458532::1726459555::1::::<><>::
+fr.1.png::CompressedTexture2D::4003184686670592000::1726458532::1726459555::1::::<><>::
+fr.2.png::CompressedTexture2D::3914539160678966365::1726458532::1726459555::1::::<><>::
+fr.3.png::CompressedTexture2D::5947107636326858582::1726458532::1726459555::1::::<><>::
+fr.4.png::CompressedTexture2D::6358651708816759439::1726458532::1726459555::1::::<><>::
+::res://scene/::1726459862
+icon.svg::CompressedTexture2D::2672870447250814954::1726458532::1726459555::1::::<><>::
+::res://scene/main/::1726459883
+fondo.tscn::PackedScene::1794306160031527193::1726459927::0::1::::<><>::uid://dviai5g1qltw2::::res://assets/Fondo/Hills.png<>uid://bka4axeafcw7g::::res://scene/main/jugador.tscn<>uid://dvjjlc4duvhgo::::res://assets/Fondo/Water.png<>uid://cw2jtkaivyb0e::::res://assets/Fondo/Basic_Grass_Biom_things.png<>uid://b45c2f2slp22j::::res://assets/Fondo/Wood_Bridge.png<>uid://dkinuyjqi5l24::::res://assets/Fondo/Sign_1.png<>uid://bcf2guppwx47y::::res://assets/Fondo/Props.png<>uid://hy0o0kgsrold::::res://assets/Fondo/Buildings.png<>uid://c6r4dtawv5263::::res://assets/Fondo/Tilled_Dirt.png<>uid://c8y4rausugmj1::::res://assets/Fondo/Tileset_Road.png<>res://scripts/entrada.gd
+jugador.tscn::PackedScene::3090071127086710142::1726458532::0::1::::<><>::res://scripts/jugador.gd<>uid://dddcou60ncdcs::::res://assets/Personaje/cosder.1.png<>uid://cam3u6ayyr3tr::::res://assets/Personaje/cosder.2.png<>uid://c300sclmhhk4c::::res://assets/Personaje/cosder.3.png<>uid://dbw1chwqu85lb::::res://assets/Personaje/cosder.4.png<>uid://dwy052dytk85l::::res://assets/Personaje/cosiz.1.png<>uid://dbal7tx3whe1y::::res://assets/Personaje/cosiz.2.png<>uid://bpuystfewdgk8::::res://assets/Personaje/cosiz.3.png<>uid://h3mw1cs3ckat::::res://assets/Personaje/cosiz.4.png<>uid://c16g5bcg1iaue::::res://assets/Personaje/es.1.png<>uid://bu5234nssd2i3::::res://assets/Personaje/es.4.png<>uid://dhi3v0l2gv5kq::::res://assets/Personaje/es.3.png<>uid://b3pun5y2fntep::::res://assets/Personaje/es.2.png<>uid://bxbf4qfkhhdns::::res://assets/Personaje/fr.1.png<>uid://bv1h5gud65pr6::::res://assets/Personaje/fr.2.png<>uid://cqy2816y8ogpa::::res://assets/Personaje/fr.3.png<>uid://cwugcgymfxubv::::res://assets/Personaje/fr.4.png
+transicion.tscn::PackedScene::5352767948480260319::1726458532::0::1::::<><>::res://scripts/transicion.gd
+::res://scene/maps/::1726458068
+::res://scene/maps/archery/::1726459883
+archery_ham.tscn::PackedScene::7506787458239827836::1726458068::0::1::::<><>::uid://cpghim6vtp1ys::::res://assets/maps/archery/archery_ham.png
+archery_map.tscn::PackedScene::6862945964422083092::1726459883::0::1::::<><>::res://scripts/archery/archery_score.gd<>uid://b38pl6nosybuo::::res://assets/maps/archery/paris 3.jpg<>uid://cexycsickob::::res://assets/maps/archery/wood_6.png<>uid://df087pbhb0xaf::::res://assets/maps/archery/archery target.png<>res://scripts/archery/pointer.gd<>uid://ba008t2jdllj1::::res://scene/maps/archery/score_board.tscn<>uid://de7lxs0fw61r1::::res://scene/maps/archery/archery_ham.tscn<>uid://dar1345jd17dn::::res://assets/maps/archery/pointer.png<>res://scripts/archery/archery_ham.gd
+arrow.tscn::PackedScene::9202454116277524869::1726458068::0::1::::<><>::uid://dcyoe63cjk7sk::::res://assets/maps/archery/Arrow 2-Photoroom.png
+score_board.tscn::PackedScene::2439608023629363808::1726459883::0::1::::<><>::res://scripts/archery/score_board.gd<>uid://bbs8pqknk7fsf::::res://assets/fonts/Kenney Blocks.ttf
+street.tscn::PackedScene::5085676207301078537::1726458068::0::1::::<><>::uid://cie1ebu78o8bs::::res://assets/maps/archery/paris_street.png<>res://scripts/archery/arrow_moving.gd<>uid://dqh66knj61pgy::::res://assets/maps/archery/camera_arrow.png
+::res://scene/tess/::1726459862
+jugador.tscn::PackedScene::4241025746558746525::1726459862::0::1::::<><>::uid://bka4axeafcw7g::::res://scene/main/jugador.tscn
+::res://scripts/::1726459922
+entrada.gd::GDScript::-1::1726459862::0::1::::<>Area2D<>::
+jugador.gd::GDScript::-1::1726458532::0::1::::<>CharacterBody2D<>::
+transicion.gd::GDScript::-1::1726458532::0::1::::Transicion<>CanvasLayer<>::
+::res://scripts/archery/::1726458068
+archery_ham.gd::GDScript::-1::1726458068::0::1::::<>AnimatedSprite2D<>::
+archery_score.gd::GDScript::-1::1726458068::0::1::::<>Node2D<>::
+arrow_moving.gd::GDScript::-1::1726458068::0::1::::<>Sprite2D<>::
+pointer.gd::GDScript::-1::1726458068::0::1::::<>Marker2D<>::
+score_board.gd::GDScript::-1::1726458068::0::1::::<>ColorRect<>::
+::res://scripts/main/::1726459922
+>>>>>>> union

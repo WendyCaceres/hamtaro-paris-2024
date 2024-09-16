@@ -17,18 +17,17 @@ var arrow_travel_scene = preload("res://scene/maps/archery/street.tscn")
 
 #Valores del juego
 var is_moving: bool = false  # Para verificar si el movimiento está activo
+var is_throw = false # Para verificar si se lanzo una flecha
 var current_target_position: Vector2
 
 #Score
 var max_turnos = 3
 var current_turno = 0
-var ui_score = "score_"+str(current_turno+1)
 
 
 func _ready():
 	#Definir el objetivo inicial aleatorio
 	position = get_random_point()
-	print(ui_score)
 	
 	# Definir el primer objetivo aleatorio
 	current_target_position = get_random_point()
@@ -44,7 +43,8 @@ func _input(event):
 			if event.pressed:
 				is_moving = true
 			else:
-				if  current_turno < max_turnos:
+				if  current_turno < max_turnos and !is_throw:
+					is_throw = true
 					is_moving = false  # Detener movimiento
 					static_body_2d.hide()
 					sprite_2d_3.hide()
@@ -56,6 +56,7 @@ func _input(event):
 					current_turno +=1
 				else:
 					is_moving = false
+					is_throw = true
 					print("Ya no te quedan flechas para jugar :c")
 
 func _physics_process(delta):
@@ -121,6 +122,7 @@ func show_arrow_in_zone(zone):
 		score_board.score_2=score
 	elif current_turno == 3:
 		score_board.score_3=score
+	is_throw = false
 	
 	
 	
