@@ -47,6 +47,7 @@ text = "3."
 label_settings = SubResource("LabelSettings_il4po")
 
 [node name="MarginContainer2" type="MarginContainer" parent="."]
+layout_mode = 0
 offset_left = 50.0
 offset_right = 110.0
 offset_bottom = 132.0
@@ -61,7 +62,6 @@ vertical_alignment = 1
 
 [node name="score_2" type="Label" parent="MarginContainer2/VBoxContainer"]
 layout_mode = 2
-text = "10"
 label_settings = SubResource("LabelSettings_ov24f")
 
 [node name="score_3" type="Label" parent="MarginContainer2/VBoxContainer"]
