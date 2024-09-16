@@ -9,9 +9,10 @@ extends Marker2D
 @onready var sprite_2d_3 = $"../../../Sprite2D3"
 @onready var sprite_2d_2 = $"../../../Sprite2D2"
 @onready var texture_rect = $"../../../TextureRect"
+@onready var score_board = $"../../../Score_Board"
 
 #Escenas
-var arrow_scene = preload("res://scene/arrow.tscn")
+var arrow_scene = preload("res://scene/maps/archery/arrow.tscn")
 var arrow_travel_scene = preload("res://scene/maps/archery/street.tscn")
 
 #Valores del juego
@@ -21,11 +22,13 @@ var current_target_position: Vector2
 #Score
 var max_turnos = 3
 var current_turno = 0
+var ui_score = "score_"+str(current_turno+1)
 
 
 func _ready():
 	#Definir el objetivo inicial aleatorio
 	position = get_random_point()
+	print(ui_score)
 	
 	# Definir el primer objetivo aleatorio
 	current_target_position = get_random_point()
@@ -47,6 +50,7 @@ func _input(event):
 					sprite_2d_3.hide()
 					sprite_2d_2.hide()
 					texture_rect.hide()
+					score_board.hide()
 					show_travel_scene()
 					print(is_moving)
 					current_turno +=1
@@ -111,6 +115,13 @@ func show_arrow_in_zone(zone):
 	# Mostrar el puntaje actual acumulado
 	print("La flecha cayó en la zona:", zone)
 	print("El puntaje hasta ahora es:", archery_score.get_archery_points())
+	if current_turno == 1:
+		score_board.score_1=score
+	elif current_turno == 2:
+		score_board.score_2=score
+	elif current_turno == 3:
+		score_board.score_3=score
+	
 	
 	
 func show_travel_scene():
@@ -125,4 +136,5 @@ func show_travel_scene():
 	sprite_2d_3.show()
 	sprite_2d_2.show()
 	texture_rect.show()
+	score_board.show()
 	calculate_impact_area()  # Calcular área de impacto al soltar el clic

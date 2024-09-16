@@ -1,0 +1,95 @@
+[gd_scene load_steps=13 format=3 uid="uid://de7lxs0fw61r1"]
+
+[ext_resource type="Texture2D" uid="uid://cpghim6vtp1ys" path="res://assets/maps/archery/archery_ham.png" id="1_y51ev"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7g1qc"]
+atlas = ExtResource("1_y51ev")
+region = Rect2(154, 77, 77, 77)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rwlx7"]
+atlas = ExtResource("1_y51ev")
+region = Rect2(308, 77, 77, 77)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6oawa"]
+atlas = ExtResource("1_y51ev")
+region = Rect2(231, 77, 77, 77)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_61owd"]
+atlas = ExtResource("1_y51ev")
+region = Rect2(0, 0, 77, 77)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eu72t"]
+atlas = ExtResource("1_y51ev")
+region = Rect2(77, 0, 77, 77)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hs4gj"]
+atlas = ExtResource("1_y51ev")
+region = Rect2(154, 0, 77, 77)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ikmjb"]
+atlas = ExtResource("1_y51ev")
+region = Rect2(231, 0, 77, 77)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cxpdf"]
+atlas = ExtResource("1_y51ev")
+region = Rect2(308, 0, 77, 77)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_athro"]
+atlas = ExtResource("1_y51ev")
+region = Rect2(0, 77, 77, 77)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_joqnh"]
+atlas = ExtResource("1_y51ev")
+region = Rect2(77, 77, 77, 77)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_85mmg"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7g1qc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rwlx7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6oawa")
+}],
+"loop": true,
+"name": &"keep_aim",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_61owd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eu72t")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hs4gj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ikmjb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cxpdf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_athro")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_joqnh")
+}],
+"loop": true,
+"name": &"prepare_arrow",
+"speed": 4.0
+}]
+
+[node name="archery_ham" type="AnimatedSprite2D"]
+sprite_frames = SubResource("SpriteFrames_85mmg")
+animation = &"prepare_arrow"
+frame_progress = 0.453067
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 1.545
+one_shot = true

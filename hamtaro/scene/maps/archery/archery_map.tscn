@@ -1,11 +1,14 @@
-[gd_scene load_steps=8 format=3 uid="uid://c41pynisb00p1"]
+[gd_scene load_steps=11 format=3 uid="uid://c41pynisb00p1"]
 
 [ext_resource type="Script" path="res://scripts/archery/archery_score.gd" id="1_2grb7"]
 [ext_resource type="Texture2D" uid="uid://b38pl6nosybuo" path="res://assets/maps/archery/paris 3.jpg" id="1_nykkc"]
 [ext_resource type="Texture2D" uid="uid://cexycsickob" path="res://assets/maps/archery/wood_6.png" id="2_0ngc8"]
 [ext_resource type="Texture2D" uid="uid://df087pbhb0xaf" path="res://assets/maps/archery/archery target.png" id="2_oo8fe"]
 [ext_resource type="Script" path="res://scripts/archery/pointer.gd" id="3_5m5ui"]
+[ext_resource type="PackedScene" uid="uid://ba008t2jdllj1" path="res://scene/maps/archery/score_board.tscn" id="4_0i1qe"]
+[ext_resource type="PackedScene" uid="uid://de7lxs0fw61r1" path="res://scene/maps/archery/archery_ham.tscn" id="5_3xki7"]
 [ext_resource type="Texture2D" uid="uid://dar1345jd17dn" path="res://assets/maps/archery/pointer.png" id="5_f4v0k"]
+[ext_resource type="Script" path="res://scripts/archery/archery_ham.gd" id="6_8bl6w"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_flsgt"]
 radius = 215.745
@@ -31,6 +34,13 @@ position = Vector2(937, 571)
 rotation = -3.831
 scale = Vector2(3.103, 4.36)
 texture = ExtResource("2_0ngc8")
+
+[node name="Score_Board" parent="." instance=ExtResource("4_0i1qe")]
+
+[node name="archery_ham" parent="." instance=ExtResource("5_3xki7")]
+position = Vector2(166, 513)
+scale = Vector2(3.12987, 3.97403)
+script = ExtResource("6_8bl6w")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 position = Vector2(830, 360)

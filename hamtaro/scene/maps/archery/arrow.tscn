@@ -1,9 +1,9 @@
 [gd_scene load_steps=4 format=3 uid="uid://d4d0csp6s52on"]
 
-[ext_resource type="Texture2D" uid="uid://dcyoe63cjk7sk" path="res://assets/maps/archery/Arrow 2-Photoroom.png" id="1_f3nwk"]
+[ext_resource type="Texture2D" uid="uid://dcyoe63cjk7sk" path="res://assets/maps/archery/Arrow 2-Photoroom.png" id="1_okymh"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3qipk"]
-atlas = ExtResource("1_f3nwk")
+atlas = ExtResource("1_okymh")
 region = Rect2(0, 560, 79, 80)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_rr623"]

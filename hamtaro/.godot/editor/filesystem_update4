@@ -6,3 +6,9 @@ res://scripts/archery/keep_arrow_position.gd
 res://scripts/archery/pointer.gd
 res://scripts/archery/arrow_moving.gd
 res://scripts/archery/archery_score.gd
+res://scene/maps/archery/score_board.tscn
+res://scene/maps/archery/character_body_2d.tscn
+res://scene/maps/archery/arrow.tscn
+res://scripts/archery/score_board.gd
+res://scene/maps/archery/archery_ham.tscn
+res://scripts/archery/archery_ham.gd
