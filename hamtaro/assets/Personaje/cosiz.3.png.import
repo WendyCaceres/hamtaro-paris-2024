@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://co8xigrxtotd5"
-path="res://.godot/imported/Game Boy Advance - Hamtaro Ham-Ham Games - Hamtaro.png-8534e963b48b7432ab517092bb2f80b3.ctex"
+uid="uid://bpuystfewdgk8"
+path="res://.godot/imported/cosiz.3.png-64a2a8b259c4d5fe5b111c4e857036bf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Game Boy Advance - Hamtaro Ham-Ham Games - Hamtaro.png"
-dest_files=["res://.godot/imported/Game Boy Advance - Hamtaro Ham-Ham Games - Hamtaro.png-8534e963b48b7432ab517092bb2f80b3.ctex"]
+source_file="res://assets/Personaje/cosiz.3.png"
+dest_files=["res://.godot/imported/cosiz.3.png-64a2a8b259c4d5fe5b111c4e857036bf.ctex"]
 
 [params]
 

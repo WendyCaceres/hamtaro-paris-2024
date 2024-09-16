@@ -1,2 +1,12 @@
+ColorRect
+CanvasLayer
 CollisionShape2D
+Area2D
+Node
+Node2D
+TileMap
+TileMapLayer
+TextureRect
+Sprite2D
+AnimatedSprite2D
 CharacterBody2D
