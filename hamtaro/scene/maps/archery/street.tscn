@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3 uid="uid://cepslx12pin3n"]
+
+[ext_resource type="Texture2D" uid="uid://cie1ebu78o8bs" path="res://assets/maps/archery/paris_street.png" id="1_nqcox"]
+[ext_resource type="Script" path="res://scripts/archery/arrow_moving.gd" id="2_c6ua8"]
+[ext_resource type="Texture2D" uid="uid://dqh66knj61pgy" path="res://assets/maps/archery/camera_arrow.png" id="2_wxrl0"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("1_nqcox")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(385, 280)
+scale = Vector2(2.275, 2.275)
+texture = ExtResource("2_wxrl0")
+offset = Vector2(0, 35)
+script = ExtResource("2_c6ua8")
+
+[node name="Camera2D" type="Camera2D" parent="Sprite2D"]
+zoom = Vector2(1.5, 1.5)
+limit_right = 2500
+limit_smoothed = true
