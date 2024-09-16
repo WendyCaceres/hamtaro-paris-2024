@@ -9,15 +9,16 @@
 config_version=5
 
 [application]
-
 config/name="hamtaro"
-run/main_scene="res://scene/tess/jugador.tscn"
+run/main_scene="res://scene/maps/archery/archery_map.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
-config/icon="res://scene/icon.svg"
+config/icon="res://icon.svg"
+
 
 [autoload]
 
 TransicionRuta="*res://script/transicion.gd"
+archery_score="*res://scripts/archery/archery_score.gd"
 
 [input]
 
@@ -51,3 +52,5 @@ izquierda={
 textures/canvas_textures/default_texture_filter=0
 textures/decals/filter=0
 textures/light_projectors/filter=0
+
+
