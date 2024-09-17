@@ -1,7 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1726467341
+::res://::1726534611
 ::res://assets/::1726466346
-::res://assets/Fondo/::1726467203
+::res://assets/Fondo/::1726467342
 Basic_Grass_Biom_things.png::CompressedTexture2D::6373315035427612906::1726463651::1726467342::1::::<><>::
 Buildings.png::CompressedTexture2D::542411226326640537::1726463651::1726467342::1::::<><>::
 Hills.png::CompressedTexture2D::8649758662034188907::1726463651::1726467342::1::::<><>::
@@ -12,10 +12,10 @@ Tileset_Road.png::CompressedTexture2D::7140409456566218796::1726463651::17264673
 Tilled_Dirt.png::CompressedTexture2D::6985557091128670886::1726463651::1726467342::1::::<><>::
 Water.png::CompressedTexture2D::8652373413942268286::1726463651::1726467342::1::::<><>::
 Wood_Bridge.png::CompressedTexture2D::4483998437398427571::1726463651::1726467342::1::::<><>::
-::res://assets/fonts/::1726467203
+::res://assets/fonts/::1726467342
 Kenney Blocks.ttf::FontFile::2495799631001010621::1726466346::1726467342::1::::<><>::
-::res://assets/maps/::1726466346
-::res://assets/maps/archery/::1726467203
+::res://assets/maps/::1726469289
+::res://assets/maps/archery/::1726467342
 archery target.png::CompressedTexture2D::7563877309002659545::1726466346::1726467342::1::::<><>::
 archery_ham.png::CompressedTexture2D::5838500272930944306::1726466346::1726467342::1::::<><>::
 Arrow 2-Photoroom.png::CompressedTexture2D::7350043657108859278::1726466346::1726467342::1::::<><>::
@@ -25,7 +25,13 @@ paris_street.png::CompressedTexture2D::5344195497412307512::1726466346::17264673
 pointer.png::CompressedTexture2D::7195986686874858003::1726466346::1726467342::1::::<><>::
 wood_6.png::CompressedTexture2D::4413961217629269::1726466346::1726467342::1::::<><>::
 wood_6_2.png::CompressedTexture2D::2021143697078617690::1726466346::1726467342::1::::<><>::
-::res://assets/Personaje/::1726467203
+::res://assets/maps/hurdles/::1726473802
+Boss-Photoroom.png::CompressedTexture2D::8363004020570971653::1726472217::1726472218::1::::<><>::
+boss_race.png::CompressedTexture2D::319028155181187185::1726473801::1726473802::1::::<><>::
+Hamtaro - Ham-Ham Games (Europe) (En,Fr,De,Es,It)-Map.png::CompressedTexture2D::1068111314440751740::1726469287::1726469289::1::::<><>::
+valla normal-Photoroom.png::CompressedTexture2D::1693350190222204688::1726468879::1726468879::1::::<><>::
+valla_CAIDA-Photoroom.png::CompressedTexture2D::6617602301896784775::1726468879::1726468879::1::::<><>::
+::res://assets/Personaje/::1726467342
 cosder.1.png::CompressedTexture2D::7376169249865061026::1726463651::1726467342::1::::<><>::
 cosder.2.png::CompressedTexture2D::4799351321457556239::1726463651::1726467342::1::::<><>::
 cosder.3.png::CompressedTexture2D::6791288624806468972::1726463651::1726467342::1::::<><>::
@@ -43,27 +49,35 @@ fr.2.png::CompressedTexture2D::3914539160678966365::1726463651::1726467342::1:::
 fr.3.png::CompressedTexture2D::5947107636326858582::1726463651::1726467342::1::::<><>::
 fr.4.png::CompressedTexture2D::6358651708816759439::1726463651::1726467342::1::::<><>::
 ::res://scene/::1726467226
-::res://scene/main/::1726467226
-fondo.tscn::PackedScene::1794306160031527193::1726467226::0::1::::<><>::uid://dviai5g1qltw2::::res://assets/Fondo/Hills.png<>uid://bka4axeafcw7g::::res://scene/main/jugador.tscn<>uid://dvjjlc4duvhgo::::res://assets/Fondo/Water.png<>uid://cw2jtkaivyb0e::::res://assets/Fondo/Basic_Grass_Biom_things.png<>uid://b45c2f2slp22j::::res://assets/Fondo/Wood_Bridge.png<>uid://dkinuyjqi5l24::::res://assets/Fondo/Sign_1.png<>uid://bcf2guppwx47y::::res://assets/Fondo/Props.png<>uid://hy0o0kgsrold::::res://assets/Fondo/Buildings.png<>uid://c6r4dtawv5263::::res://assets/Fondo/Tilled_Dirt.png<>uid://c8y4rausugmj1::::res://assets/Fondo/Tileset_Road.png<>res://scripts/main/entrada.gd
+::res://scene/main/::1726491871
+fondo.tscn::PackedScene::1794306160031527193::1726491871::0::1::::<><>::uid://dviai5g1qltw2::::res://assets/Fondo/Hills.png<>uid://bka4axeafcw7g::::res://scene/main/jugador.tscn<>uid://dvjjlc4duvhgo::::res://assets/Fondo/Water.png<>uid://cw2jtkaivyb0e::::res://assets/Fondo/Basic_Grass_Biom_things.png<>uid://b45c2f2slp22j::::res://assets/Fondo/Wood_Bridge.png<>uid://dkinuyjqi5l24::::res://assets/Fondo/Sign_1.png<>uid://bcf2guppwx47y::::res://assets/Fondo/Props.png<>uid://hy0o0kgsrold::::res://assets/Fondo/Buildings.png<>uid://c6r4dtawv5263::::res://assets/Fondo/Tilled_Dirt.png<>uid://c8y4rausugmj1::::res://assets/Fondo/Tileset_Road.png<>res://scripts/main/entrada.gd<>res://scripts/main/entrada2.gd
 jugador.tscn::PackedScene::3090071127086710142::1726467226::0::1::::<><>::res://scripts/main/jugador.gd<>uid://dddcou60ncdcs::::res://assets/Personaje/cosder.1.png<>uid://cam3u6ayyr3tr::::res://assets/Personaje/cosder.2.png<>uid://c300sclmhhk4c::::res://assets/Personaje/cosder.3.png<>uid://dbw1chwqu85lb::::res://assets/Personaje/cosder.4.png<>uid://dwy052dytk85l::::res://assets/Personaje/cosiz.1.png<>uid://dbal7tx3whe1y::::res://assets/Personaje/cosiz.2.png<>uid://bpuystfewdgk8::::res://assets/Personaje/cosiz.3.png<>uid://h3mw1cs3ckat::::res://assets/Personaje/cosiz.4.png<>uid://c16g5bcg1iaue::::res://assets/Personaje/es.1.png<>uid://bu5234nssd2i3::::res://assets/Personaje/es.4.png<>uid://dhi3v0l2gv5kq::::res://assets/Personaje/es.3.png<>uid://b3pun5y2fntep::::res://assets/Personaje/es.2.png<>uid://bxbf4qfkhhdns::::res://assets/Personaje/fr.1.png<>uid://bv1h5gud65pr6::::res://assets/Personaje/fr.2.png<>uid://cqy2816y8ogpa::::res://assets/Personaje/fr.3.png<>uid://cwugcgymfxubv::::res://assets/Personaje/fr.4.png
-transicion.tscn::PackedScene::5352767948480260319::1726467226::0::1::::<><>::res://scripts/main/transicion.gd
-::res://scene/maps/::1726466346
-::res://scene/maps/archery/::1726467226
+transicion.tscn::PackedScene::5352767948480260319::1726491871::0::1::::<><>::res://scripts/main/transicion.gd
+::res://scene/maps/::1726468904
+::res://scene/maps/archery/::1726491870
 archery_ham.tscn::PackedScene::7506787458239827836::1726466346::0::1::::<><>::uid://cpghim6vtp1ys::::res://assets/maps/archery/archery_ham.png
-archery_map.tscn::PackedScene::6862945964422083092::1726467203::0::1::::<><>::res://scripts/archery/archery_score.gd<>uid://b38pl6nosybuo::::res://assets/maps/archery/paris 3.jpg<>uid://cexycsickob::::res://assets/maps/archery/wood_6.png<>uid://df087pbhb0xaf::::res://assets/maps/archery/archery target.png<>res://scripts/archery/pointer.gd<>uid://ba008t2jdllj1::::res://scene/maps/archery/score_board.tscn<>uid://de7lxs0fw61r1::::res://scene/maps/archery/archery_ham.tscn<>uid://dar1345jd17dn::::res://assets/maps/archery/pointer.png<>res://scripts/archery/archery_ham.gd
+archery_map.tscn::PackedScene::6862945964422083092::1726491870::0::1::::<><>::res://scripts/archery/archery_score.gd<>uid://b38pl6nosybuo::::res://assets/maps/archery/paris 3.jpg<>uid://cexycsickob::::res://assets/maps/archery/wood_6.png<>uid://df087pbhb0xaf::::res://assets/maps/archery/archery target.png<>res://scripts/archery/pointer.gd<>uid://ba008t2jdllj1::::res://scene/maps/archery/score_board.tscn<>uid://de7lxs0fw61r1::::res://scene/maps/archery/archery_ham.tscn<>uid://dar1345jd17dn::::res://assets/maps/archery/pointer.png<>res://scripts/archery/archery_ham.gd
 arrow.tscn::PackedScene::9202454116277524869::1726466346::0::1::::<><>::uid://dcyoe63cjk7sk::::res://assets/maps/archery/Arrow 2-Photoroom.png
 score_board.tscn::PackedScene::2439608023629363808::1726467226::0::1::::<><>::res://scripts/archery/score_board.gd<>uid://bbs8pqknk7fsf::::res://assets/fonts/Kenney Blocks.ttf
 street.tscn::PackedScene::5085676207301078537::1726466346::0::1::::<><>::uid://cie1ebu78o8bs::::res://assets/maps/archery/paris_street.png<>res://scripts/archery/arrow_moving.gd<>uid://dqh66knj61pgy::::res://assets/maps/archery/camera_arrow.png
+::res://scene/maps/hurdles/::1726491870
+boss.tscn::PackedScene::6036120434129729438::1726491870::0::1::::<><>::res://scripts/hurdles/boss.gd<>uid://essl2ivhvqdt::::res://assets/maps/hurdles/boss_race.png
+hurdle.tscn::PackedScene::4322780225731528776::1726491870::0::1::::<><>::res://scripts/hurdles/hurdle.gd<>uid://yejh3farkqqq::::res://assets/maps/hurdles/valla normal-Photoroom.png<>uid://c1ju7cgmkunl4::::res://assets/maps/hurdles/valla_CAIDA-Photoroom.png
+hurdles_map.tscn::PackedScene::4882849865165717499::1726491870::0::1::::<><>::uid://phnvwyjl647a::::res://assets/maps/hurdles/Hamtaro - Ham-Ham Games (Europe) (En,Fr,De,Es,It)-Map.png<>uid://cr87a0bns5wgk::::res://scene/maps/hurdles/boss.tscn<>uid://b2t8s86gasvgy::::res://scene/maps/hurdles/hurdle.tscn
 ::res://scene/tess/::1726467226
 jugador.tscn::PackedScene::4241025746558746525::1726467226::0::1::::<><>::uid://bka4axeafcw7g::::res://scene/main/jugador.tscn
-::res://scripts/::1726467226
-::res://scripts/archery/::1726467226
+::res://scripts/::1726474768
+::res://scripts/archery/::1726489839
 archery_ham.gd::GDScript::-1::1726466346::0::1::::<>AnimatedSprite2D<>::
 archery_score.gd::GDScript::-1::1726466346::0::1::::<>Node2D<>::
 arrow_moving.gd::GDScript::-1::1726466346::0::1::::<>Sprite2D<>::
-pointer.gd::GDScript::-1::1726467226::0::1::::<>Marker2D<>::
+pointer.gd::GDScript::-1::1726489839::0::1::::<>Marker2D<>::
 score_board.gd::GDScript::-1::1726466346::0::1::::<>ColorRect<>::
-::res://scripts/main/::1726467226
-entrada.gd::GDScript::-1::1726467226::0::1::::<>Area2D<>::
-jugador.gd::GDScript::-1::1726467226::0::1::::<>CharacterBody2D<>::
+::res://scripts/hurdles/::1726491067
+boss.gd::GDScript::-1::1726491067::0::1::::<>CharacterBody2D<>::
+hurdle.gd::GDScript::-1::1726487386::0::1::::<>RigidBody2D<>::
+::res://scripts/main/::1726489839
+entrada2.gd::GDScript::-1::1726487735::0::1::::<>Area2D<>::
+entrada.gd::GDScript::-1::1726488393::0::1::::<>Area2D<>::
+jugador.gd::GDScript::-1::1726489839::0::1::::<>CharacterBody2D<>::
 transicion.gd::GDScript::-1::1726467226::0::1::::Transicion<>CanvasLayer<>::

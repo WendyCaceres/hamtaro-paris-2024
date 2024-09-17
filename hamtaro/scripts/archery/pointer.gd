@@ -57,6 +57,9 @@ func _input(event):
 					is_moving = false
 					is_throw = true
 					print("Ya no te quedan flechas para jugar :c")
+		elif Input.is_key_pressed(KEY_P):
+			get_tree().change_scene_to_file("res://scene/main/fondo.tscn")
+			
 
 func _physics_process(delta):
 	# Moverse hacia la posición objetivo
@@ -121,6 +124,9 @@ func show_arrow_in_zone(zone):
 		score_board.score_2=score
 	elif current_turno == 3:
 		score_board.score_3=score
+		timer.start()
+		await (timer.timeout)
+		get_tree().change_scene_to_file("res://scene/main/fondo.tscn")
 	is_throw = false
 	
 	

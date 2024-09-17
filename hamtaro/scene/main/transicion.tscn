@@ -2,7 +2,6 @@
 
 [ext_resource type="Script" path="res://scripts/main/transicion.gd" id="1_vki87"]
 
-
 [node name="CanvasLayer" type="CanvasLayer"]
 script = ExtResource("1_vki87")
 

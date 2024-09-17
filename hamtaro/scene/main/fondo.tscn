@@ -1,4 +1,4 @@
-[gd_scene load_steps=28 format=4 uid="uid://0tf7wd2honkr"]
+[gd_scene load_steps=29 format=4 uid="uid://0tf7wd2honkr"]
 
 [ext_resource type="Texture2D" uid="uid://dviai5g1qltw2" path="res://assets/Fondo/Hills.png" id="1_oq8mt"]
 [ext_resource type="PackedScene" uid="uid://bka4axeafcw7g" path="res://scene/main/jugador.tscn" id="1_uxx70"]
@@ -11,6 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://c6r4dtawv5263" path="res://assets/Fondo/Tilled_Dirt.png" id="8_xuf43"]
 [ext_resource type="Texture2D" uid="uid://c8y4rausugmj1" path="res://assets/Fondo/Tileset_Road.png" id="9_g3eah"]
 [ext_resource type="Script" path="res://scripts/main/entrada.gd" id="12_cn8i1"]
+[ext_resource type="Script" path="res://scripts/main/entrada2.gd" id="12_wb18r"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_bqinc"]
 texture = ExtResource("1_oq8mt")
@@ -829,4 +830,12 @@ script = ExtResource("12_cn8i1")
 position = Vector2(79.6719, 41.7746)
 shape = SubResource("RectangleShape2D_a0e3f")
 
+[node name="Area2D2" type="Area2D" parent="."]
+script = ExtResource("12_wb18r")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D2"]
+position = Vector2(226.069, 314.065)
+shape = SubResource("RectangleShape2D_a0e3f")
+
 [connection signal="body_entered" from="Area2D" to="Area2D" method="_on_body_entered"]
+[connection signal="body_entered" from="Area2D2" to="Area2D2" method="_on_body_entered"]

@@ -1,0 +1,60 @@
+[gd_scene load_steps=6 format=3 uid="uid://cbtj3aoardmt4"]
+
+[ext_resource type="Texture2D" uid="uid://phnvwyjl647a" path="res://assets/maps/hurdles/Hamtaro - Ham-Ham Games (Europe) (En,Fr,De,Es,It)-Map.png" id="1_571tn"]
+[ext_resource type="PackedScene" uid="uid://cr87a0bns5wgk" path="res://scene/maps/hurdles/boss.tscn" id="2_bl0fn"]
+[ext_resource type="PackedScene" uid="uid://b2t8s86gasvgy" path="res://scene/maps/hurdles/hurdle.tscn" id="3_tjwq2"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ejjws"]
+size = Vector2(3606, 20.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_s2bjo"]
+size = Vector2(27, 412)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 3602.0
+offset_bottom = 645.0
+texture = ExtResource("1_571tn")
+
+[node name="boss" parent="." groups=["player"] instance=ExtResource("2_bl0fn")]
+position = Vector2(74, 353)
+scale = Vector2(1.955, 1.955)
+
+[node name="Camera2D" type="Camera2D" parent="boss"]
+limit_top = 0
+limit_right = 3600
+limit_smoothed = true
+drag_horizontal_offset = 1.0
+drag_vertical_offset = -0.11
+drag_left_margin = 0.88
+drag_top_margin = 0.77
+drag_right_margin = 0.84
+drag_bottom_margin = 0.9
+
+[node name="RigidBody2D" parent="." instance=ExtResource("3_tjwq2")]
+position = Vector2(787, 373)
+
+[node name="RigidBody2D2" parent="." instance=ExtResource("3_tjwq2")]
+position = Vector2(1457, 372)
+
+[node name="RigidBody2D3" parent="." instance=ExtResource("3_tjwq2")]
+position = Vector2(2126, 373)
+
+[node name="RigidBody2D4" parent="." instance=ExtResource("3_tjwq2")]
+position = Vector2(3362, 374)
+
+[node name="RigidBody2D5" parent="." instance=ExtResource("3_tjwq2")]
+position = Vector2(2795, 372)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(1801, 429.75)
+shape = SubResource("RectangleShape2D_ejjws")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2"]
+position = Vector2(3611.5, 210)
+shape = SubResource("RectangleShape2D_s2bjo")

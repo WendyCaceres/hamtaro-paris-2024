@@ -26,6 +26,6 @@ func _physics_process(delta):
 
 	# Establecer la velocidad del personaje
 	velocity = dir * SPEED
-
+	
 	# Mover al personaje con la función `move_and_slide()`
 	move_and_slide()
